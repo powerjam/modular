@@ -1,0 +1,99 @@
+/* Week 6 Assignment - Modular */
+
+/* GLOBAL */
+
+* {
+  box-sizing: border-box;
+  margin-top: 0px;
+}
+
+
+/* GLOBAL & FONT STYLING */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', 'Segoe UI', sans-serif;
+  font-size: 1rem;
+}
+
+p, a {
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+
+/* PRODUCT STYLING*/
+
+section {
+  padding: 1rem;
+}
+
+.product li {
+  display: inline-block;
+}
+
+.thumbnail {
+  width: 20%;
+  height: 20%;
+  background: rgba(100, 200, 100, 0.50);
+  overflow: hidden;
+  color: #000000;
+}
+
+.rating {
+  font-size: .85rem;
+  color: #339033;
+  width: 20%;
+  height: 20%;
+}
+
+.product-title {
+  font-weight: bold;
+  color: #000000;
+}
+
+.product-title:hover {
+  text-decoration: underline;
+}
+
+.price {
+  font-size: .9rem;
+}
+
+.price.sale {
+  font-size: .9rem;
+  color: #cc3333;
+}
+
+.price.old {
+  font-size: .9rem;
+  text-decoration: line-through;
+}
+
+.price.savings {
+  font-size: .9rem;
+}
+
+.button-inline, button-inline {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  background: #eeeeee;
+  border: solid #000000 1px;
+  text-decoration: none;
+  display: inline-block;
+  padding: .5rem .5rem;
+}
+
+.button-inline a {
+  font-size: .9rem;
+  color: #000000;
+  padding: .5rem 1rem;
+}
+
+.button-inline:hover {
+  background: #dddddd;
+  border: solid #555555 1px;
+  text-decoration: none;  
+}
